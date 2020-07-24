@@ -3398,11 +3398,11 @@ object F_Principal: TF_Principal
     end
   end
   object BitBtn1: TBitBtn
-    Left = 544
+    Left = 528
     Top = 168
     Width = 75
     Height = 25
-    Caption = 'BitBtn1'
+    Caption = 'Nogueira'
     TabOrder = 2
   end
   object MainMenu1: TMainMenu
