@@ -3397,6 +3397,14 @@ object F_Principal: TF_Principal
       ImageIndex = 0
     end
   end
+  object BitBtn1: TBitBtn
+    Left = 544
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'BitBtn1'
+    TabOrder = 2
+  end
   object MainMenu1: TMainMenu
     Left = 528
     Top = 40

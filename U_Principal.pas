@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
-  Vcl.ComCtrls, Vcl.ToolWin, Vcl.Menus;
+  Vcl.ComCtrls, Vcl.ToolWin, Vcl.Menus, Vcl.StdCtrls, Vcl.Buttons;
 
 type
   TF_Principal = class(TForm)
@@ -27,6 +27,7 @@ type
     Configuraoes1: TMenuItem;
     Financeiro1: TMenuItem;
     Integrao1: TMenuItem;
+    BitBtn1: TBitBtn;
     procedure FormCreate(Sender: TObject);
     procedure FormResize(Sender: TObject);
 
